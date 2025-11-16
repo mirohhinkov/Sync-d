@@ -4,7 +4,7 @@ SYNC’D — Full MVP Specification Document. Comprehensive Functional, Technica
 ## 1. Product Overview
 Sync’d is a mobile-first, real-time content mirroring platform designed to allow users to share visual content from their device **without uploading, transferring, or duplicating files**. Unlike traditional cloud storage, file transfer apps, or messaging platforms, Sync’d streams a secure, real-time visual representation of content stored on the sender’s device.
 
-This document provides a detailed 10–20 page MVP specification covering:
+This document provides a detailed MVP specification covering:
 - Functional requirements
 - UX flows and interface behavior
 - Technical architecture
