@@ -1,5 +1,4 @@
-SYNC’D — Full MVP Specification Document (Extended Version)
-Version 1.0 — Comprehensive Functional, Technical, UX, and Business Specification
+SYNC’D — Full MVP Specification Document. Comprehensive Functional, Technical, UX, and Business Specification
 
 
 ## 1. Product Overview
