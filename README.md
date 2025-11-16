@@ -1,0 +1,2 @@
+# Sync-d
+alternative sharing
