@@ -139,7 +139,8 @@ Viewer:
 - Optional quick login for history tracking
 
 Authentication is JWT-based (server-issued, short-lived).
-3. User Experience & Journey Maps
+
+# 3. User Experience & Journey Maps
 This section outlines every user flow included in the MVP, detailing expected behavior, errors, and micro-interactions.
 
 ---
@@ -201,7 +202,8 @@ This section outlines every user flow included in the MVP, detailing expected be
 4. **Remote content viewer loads**
 5. **Receives content in real-time**
 6. **Session ends automatically**
-4. Technical Architecture (Extended)
+
+## 4. Technical Architecture (Extended)
 Sync’d MVP uses a modern, scalable, secure architecture designed for real-time performance and zero-storage privacy.
 
 ---
@@ -271,12 +273,14 @@ All stored items contain **no content data** — only metadata like timestamps, 
 - CPU utilization target: < 50% on 2019+ devices
 - Memory usage: < 150 MB per session
 - Battery drain: < 8% per 30 minutes
-5. Security Architecture
+
+
+## 5. Security Architecture
 Security is a core differentiator for Sync’d.
 
 ---
 
-## 5.1 End-to-End Encryption Model
+### 5.1 End-to-End Encryption Model
 All stream data is encrypted using:
 - E2EE AES-256 encryption
 - DTLS key exchange
@@ -289,7 +293,7 @@ No content ever reaches:
 
 ---
 
-## 5.2 Screenshot Detection
+### 5.2 Screenshot Detection
 Viewer screenshots trigger:
 - Immediate alert to sender
 - Logged event in session records
@@ -297,7 +301,7 @@ Viewer screenshots trigger:
 
 ---
 
-## 5.3 Session Integrity
+### 5.3 Session Integrity
 If a viewer attempts:
 - Screen recording
 - Casting the display
@@ -307,14 +311,16 @@ If a viewer attempts:
 
 ---
 
-## 5.4 Device Verification
+### 5.4 Device Verification
 Each viewer is assigned:
 - Device fingerprint
 - Browser signature
 - Risk score
 
 Suspicious behavior → connection denial.
-6. Non-Functional Requirements
+
+
+## 6. Non-Functional Requirements
 ### Performance Requirements
 - Cold start < 3 seconds
 - Session creation < 1.5 seconds
@@ -334,7 +340,9 @@ Suspicious behavior → connection denial.
 - Text size scaling support
 - High contrast mode
 - Screen reader compatibility
-7. Business Logic & Monetisation
+
+
+## 7. Business Logic & Monetisation
 The MVP will contain the foundational elements needed to support future monetization.
 
 ---
@@ -366,7 +374,9 @@ Features:
 - Compliance mode (SOC2 logging)
 - Company SSO login
 - Team roles & permissions
-8. Roadmap (12 Months)
+
+
+## 8. Roadmap (12 Months)
 ### Phase 1 — MVP Launch (Months 1–6)
 - Real-time mirroring
 - Viewer access via QR/link
