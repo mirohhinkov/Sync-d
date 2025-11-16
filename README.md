@@ -229,7 +229,7 @@ All content stays exclusively on the sender’s device.
 
 Frontend:
 - React Native (iOS + Android)
-- Web viewer (React or lightweight vanilla JS)
+- Web viewer (React)
 
 Backend:
 - Firebase Auth
