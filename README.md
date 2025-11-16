@@ -42,7 +42,7 @@ The following features make up the MVP’s core functional scope. Each is broken
 
 ### 2.1 Selective Content Sharing
 
-This feature enables users to select **specific files** from their device to share in real time. It allows users to share visually based content that can be mirrored efficiently.
+This feature enables users to select **specific files** from their device to share in real time. It allows them to share visually based content that can be mirrored efficiently.
 
 Supported content types:
 - Photos (JPEG, PNG)
@@ -82,7 +82,7 @@ Quality Adaptation:
 - Tier 3: 480p
 - Tier 4: 360p failover
 
-If quality drops below Tier 4, session auto-pauses with a “Network too weak” message.
+If quality drops below Tier 4, session auto-pauses with a “Network weak...” message.
 
 ---
 
